@@ -1,2 +1,4 @@
-# impacta-system-testing
-System testing with java for Impacta studients
+# impacta TDD
+Luiz Henrique Bezerra - RA: 1902463
+
+Fabiane Santana de Almeida - 1901626
