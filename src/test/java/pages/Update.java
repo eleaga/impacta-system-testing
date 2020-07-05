@@ -2,9 +2,9 @@ package pages;
 
 import support.DriverQA;
 
-public class LoginOk extends BasePage{
+public class Update extends BasePage{
 
-    public LoginOk(DriverQA stepDriver) {
+    public Update(DriverQA stepDriver) {
         super(stepDriver);
     }
 

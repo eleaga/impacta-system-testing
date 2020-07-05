@@ -2,9 +2,9 @@ package pages;
 
 import support.DriverQA;
 
-public class LoginFail extends BasePage{
+public class Read extends BasePage{
 
-    public LoginFail(DriverQA stepDriver) {
+    public Read(DriverQA stepDriver) {
         super(stepDriver);
     }
 
