@@ -8,7 +8,6 @@ public class Delete extends BasePage{
         super(stepDriver);
     }
 
-
     public void openPage() {
         String url = "http://agapito-server.herokuapp.com/processos";
         driver.openURL(url);
@@ -16,8 +15,7 @@ public class Delete extends BasePage{
 
     public void deleteFirst() {
         String selector = ".ls-table tr:first-child a.ls-btn-primary-danger";
-
-        driver.click("Apagar", selector);
+        driver.getText(selector, "css");
     }
 
 

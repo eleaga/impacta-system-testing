@@ -11,4 +11,13 @@ public class Read extends BasePage{
     public String getResult(){
         return driver.getText("result");
     }
+
+    public void openPage() {
+        String url = "http://agapito-server.herokuapp.com/processos";
+        driver.openURL(url);
+    }
+
+    public void show() {
+        driver.click("/html/body/main/div/table/tbody/tr[1]/td[9]/a");
+    }
 }
